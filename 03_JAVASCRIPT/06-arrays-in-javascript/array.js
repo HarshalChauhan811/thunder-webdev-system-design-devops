@@ -27,7 +27,7 @@ console.log(marks.length);
 // Print all elements of the array
 for (let i = 0; i < marks.length; i++) {
     console.log(marks[i]);
-}
+} 
 // Output:
 // 30
 // 20
