@@ -75,7 +75,7 @@ app.patch("/users", (req, res) => {
 
 // ======================= DELETE =======================
 
-app.delete("/users", (req, res) => {
+app.delete("/users", (req, res) => { 
 
     console.log(req.body);
 
