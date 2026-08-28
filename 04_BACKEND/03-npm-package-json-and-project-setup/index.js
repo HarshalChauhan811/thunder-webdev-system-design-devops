@@ -31,5 +31,5 @@ console.log(validator.isStrongPassword(password));
 // Hum unhe install karke direct use kar sakte hain.
 
 // Example:
-console.log(validator.isEmail('harshal@gmail.com'));
+console.log(validator.isEmail('harshal@gmail.com')); 
 console.log(validator.isStrongPassword('Harshal@123'));
