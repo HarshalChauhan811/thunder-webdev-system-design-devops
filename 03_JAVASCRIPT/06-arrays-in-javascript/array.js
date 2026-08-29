@@ -9,10 +9,10 @@ let marks4 = 80;
 let marks5 = 70;
 
 // Agar yaha pe bole ki 100 students ke marks ko store karo,
-// to 100 alag-alag variables banana padega.
+// to 100 alag-alag variables banana padega. 
 
 // Array --> 0 based indexing hoti hai.
-// JavaScript me array heterogeneous hota hai (Different data types store kar sakta hai).
+// JavaScript me array heterogeneous hota hai (Different data types store kar sakta hai).  
 
 let marks = [30, 20, 11, 80, 70];
 console.log(marks);
@@ -24,7 +24,7 @@ console.log(marks.length);
 // Output:
 // 5
 
-// Print all elements of the array
+// Print all elements of the array  
 for (let i = 0; i < marks.length; i++) {
     console.log(marks[i]);
 } 
@@ -168,7 +168,7 @@ console.log(newArr);
 // Output:
 // [
 //   [10,20,30],
-//   [40,50,60],
+//   [40,50,60], 
 //   [70,80,90],
 //   [22,44,88]
 // ]
@@ -231,7 +231,7 @@ console.log(all);
 
 // Spread Operator (...)
 
-const spread = [...num1, ...num2, ...num3];
+const spread = [...num1, ...num2, ...num3]; 
 console.log(spread);
 // Output:
 // [10,20,30,40,50,60,70,80,45,56,89]
