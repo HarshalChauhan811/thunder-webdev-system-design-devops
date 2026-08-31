@@ -180,7 +180,7 @@ console.log(person["full name"]);      // Bracket notation
 
 
 // --- ARRAYS ---
-let numbers = [10, 20, 30, 40];
+let numbers = [10, 20, 30, 40];    
 // Array bhi technically object hai
 console.log(typeof numbers); // "object"
 
@@ -189,7 +189,7 @@ console.log(Array.isArray(numbers)); // true
 
 
 // --- FUNCTIONS ---
-function greet() {
+function greet() {   
     console.log("Hello");
 }
 
@@ -201,7 +201,7 @@ console.log(typeof greet); // "function" - special typeof case
 
 
 // ============================================
-// 4. VALUE vs REFERENCE (Sabse Important)
+// 4. VALUE vs REFERENCE (Sabse Important)  
 // ============================================
 
 // --- Primitive: Pass by Value (Copy) ---
@@ -229,7 +229,7 @@ console.log(obj2.value); // 20
 // 5. typeof OPERATOR
 // ============================================
 
-typeof "Hello"        // "string"
+typeof "Hello"        // "string"  
 typeof 42             // "number"
 typeof true           // "boolean"
 typeof undefined      // "undefined"
